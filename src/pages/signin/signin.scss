@@ -1,0 +1,187 @@
+page-signin {
+    .bg-img {
+        background-image: url('../assets/img/login.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .no-scroll .scroll-content {
+        overflow: hidden;
+    }
+    .signin-form {
+        width: 32.49%;
+        background: rgba(0, 0, 0, 0.45);
+        -webkit-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.69);
+        -moz-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.69);
+        box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.69);
+        h3 {
+            font-size: 1.4em;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 1em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+    /*-- sign in-form --*/
+    .signin-form form {
+        padding: 2em;
+    }
+    .signin-form input[type="text"],
+    .signin-form input[type="password"] {
+        outline: none;
+        font-size: 1em;
+        color: #000;
+        padding: .8em 1em;
+        margin: 0;
+        width: 89%;
+        border: none;
+        -webkit-appearance: none;
+        background: #fff;
+    }
+    .signin-form p {
+        font-size: 1em;
+        color: #fff;
+        margin: 1.7em 0 0.7em;
+        text-align: left;
+    }
+    /*-- checkbox --*/
+    .signin-form input[type="checkbox"] {
+        display: none;
+    }
+    .signin-form input[type="checkbox"]+label {
+        position: relative;
+        padding-left: 0.1em;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        margin: 1.8em 0 2.5em;
+        float: left;
+        width: 50%;
+    }
+    .signin-form input[type="checkbox"]+label span:first-child {
+        width: 14px;
+        height: 14px;
+        border: 2px solid #C8C8C8;
+        position: absolute;
+        left: 0;
+        top: 0px;
+    }
+    .signin-form input[type="checkbox"]:checked+label span:first-child:before {
+        content: "";
+        background: url(../images/tick.png)no-repeat;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+    }
+    /*-- //checkbox --*/
+    .signin-agileits-bottom {
+        float: right;
+        width: 41%;
+    }
+    .signin-form input[type="submit"] {
+        font-size: 1em;
+        color: #fff;
+        background: #2DCC70;
+        border: none;
+        letter-spacing: 1px;
+        outline: none;
+        cursor: pointer;
+        padding: .7em 0em;
+        -webkit-appearance: none;
+        width: 50%;
+        margin: 0em auto 2.55em;
+        text-align: center;
+        display: inherit;
+        font-family: 'Philosopher', sans-serif;
+    }
+    .signin-form input[type="submit"]:hover {
+        background: transparent;
+        color: #2DCC70;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+    }
+    /*-- //sign in-form --*/
+    /*-- sign in-bottom --*/
+    .signin-agileits-bottom p {
+        text-align: center;
+        margin: 1.8em 0;
+    }
+    .signin-agileits-bottom p a {
+        color: #fff;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        transition: 0.5s all;
+    }
+    .signin-agileits-bottom p a:hover {
+        color: #2DCC70;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        transition: 0.5s all;
+    }
+    .social-icons ul li {
+        background-color: #3b5998;
+        -webkit-transition: .5s all;
+        -moz-transition: .5s all;
+        -o-transition: .5s all;
+        -ms-transition: .5s all;
+        transition: .5s all;
+        display: inline-block;
+        width: 48%;
+        float: left;
+    }
+    .social-icons ul li a {
+        display: block;
+    }
+    .social-icons ul li a span {
+        vertical-align: middle;
+        color: #fff;
+        float: left;
+        font-size: .9em;
+    }
+    .social-icons ul li a span.text {
+        padding: .8em 0;
+        text-align: center;
+        width: 52%;
+    }
+    .social-icons ul li span.icons {
+        background: #2E4A84;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-right: 1px solid #3b5998;
+    }
+    .social-icons ul li.twt {
+        background-color: #55acee;
+        float: right;
+    }
+    .social-icons ul li.twt span.icons {
+        background: #4D9CD8;
+        border-color: #67b0e8;
+    }
+    .social-icons ul li:hover {
+        background: #2E4A84;
+    }
+    .social-icons ul li.twt:hover {
+        background: #4D9CD8;
+    }
+    .icons i {
+        text-align: center;
+        display: inherit;
+        padding-top: 11px;
+    }
+    /*-- //sign in-bottom --*/
+}
